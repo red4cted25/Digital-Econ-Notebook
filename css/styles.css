@@ -1,0 +1,91 @@
+:root {
+    --primary-color: #1A3A5A;
+    --secondary-color: #D9C5B2;
+    --tertiary-color: #A6907B;
+    --text-color: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 5vw;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-icon {
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    margin-right: 10px;
+}
+
+.menu-icon {
+    font-size: 10vw;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+.hero {
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5vh;
+    margin-bottom: 2vh;
+    height: 20vh;
+}
+
+.topic-card {
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 2vw;
+    padding: 2vh 3vw;
+    margin: 3vh 3vw;
+}
+
+.topic-card h2 {
+    font-size: 6vw;
+}
+
+.topic-card p {
+    font-size: 4vw;
+    margin-bottom: 2vh;
+}
+
+.button {
+    background-color: var(--tertiary-color);
+    color: var(--text-color);
+    padding: 1vh 2vw;
+    border-radius: 2vw;
+    text-decoration: none;
+    font-size: 4vw;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 10vh;
+}
